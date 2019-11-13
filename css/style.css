@@ -1,0 +1,68 @@
+h1 {
+	text-align: center;
+}
+
+
+
+
+.graytable {
+	background-color: #A9A9A9;
+	border: 2px;
+	border-color: black;
+	border-style: solid;
+	float: left;
+	margin: 15px;
+}
+
+.headerbox {
+	width: 30%;
+	height: 25px;
+	font-size: 18px;
+	float: right;
+	border-width: 0px 0px 2px 2px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 100%;
+}
+
+section {
+	font-size: 14px;
+	width: 95%;
+	padding-left: 15px;
+}
+/********** Desktop View **********/
+
+@media (min-width: 992px) {
+	.graytable  {
+		width: 30%;
+	}
+}
+
+/********** Tablet View **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#graytable1, #graytable2 {
+		width: 45%;
+	}
+	#graytable3 {
+		width: 93.6%;
+	}
+}
+
+#chicken {
+	background-color: #da90a7;
+	
+}
+
+#beef {
+	background-color: #c95f5f;
+	color: white;
+
+}
+
+#sushi {
+	background-color: #e2d280;
+}
